@@ -131,5 +131,4 @@ def sort_by_distance(ships, coords):
         break
       elif i == len(ret) - 1:
         ret += [s]
-  print ret
   return ret
