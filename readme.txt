@@ -8,7 +8,7 @@ Running the server:
 
 Using the API:
   api returns upto 25 results per page
-  string:
+  urls:
     ships/api/
       -Returns the first 25 ships
     ships/api/page=n
