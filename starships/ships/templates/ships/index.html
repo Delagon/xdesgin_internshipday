@@ -1,0 +1,27 @@
+{% if ships %}
+  <table style="width:100%">
+    <tr>
+      <td> name </td>
+      <td> manufacturer </td>
+      <td> cost in credits </td>
+      <td> length </td>
+      <td> max atmosphering speed </td>
+      <td> cargo capacity kg </td>
+      <td> hyperdrive rating </td>
+      <td> docking station latitide </td>
+      <td> docking station longitude </td>
+    </tr>
+    {% for s in ships %}
+      <tr>
+        <td> {{s.name}} </td>
+        <td> {{s.manufacturer}} </td>
+        <td> {{s.cost_in_credits}} </td>
+        <td> {{s.length }}</td>
+        <td> {{s.max_atmosphering_speed}} </td>
+        <td> {{s.cargo_capacity_kg}} </td>
+        <td> {{s.hyperdrive_rating}} </td>
+        <td> {{s.docking_station_latitide}} </td>
+        <td> {{s.docking_station_longitude}} </td>
+      </tr>
+    {% endfor %}
+{% endif %}
