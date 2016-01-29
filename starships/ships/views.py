@@ -6,8 +6,42 @@ from .models import Ship
 
 def index(request):
   s = []
-  for ship in Ship.objects.all():
-    s += [ship]
+  if len(request.path.split('/')) > 1:
+    log = 0
+    lat = 0
+    st = ""
+    latt = False
+    cc = 0
+    for i in request.path.split('/')[-1]:
+      if i == ':':
+        if st == "lat":
+          latt = True
+        st = ""
+      elif i == ',':
+        cc += 1
+        if latt:
+          lat = float(st)
+          latt = False
+        else:
+          log = float(st)
+        st = ""
+        if cc == 2:
+          break
+      elif i not in "1234567890" and (len(st) > 0) and st[-1] in "1234567890":
+        if latt:
+          lat = float(st)
+        else:
+          log = float(st)
+        st = "" + i
+      else:
+        st += i
+    if latt:
+      lat = float(st)
+    coords = [lat,log]
+    s = sort_by_distance(Ship.objects.all(), coords)
+  else:
+    for ship in Ship.objects.all():
+      s += [ship]
   context = {'ships':s}
   return render(request, 'ships/index.html', context)
 
