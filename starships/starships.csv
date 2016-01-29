@@ -1,0 +1,38 @@
+"name","manufacturer","cost_in_credits","length","max_atmosphering_speed","cargo_capacity_kg","hyperdrive_rating","docking_station_latitide","docking_station_longitude"
+"Sentinel-class landing craft","Sienar Fleet Systems, Cyngus Spaceworks",240000,38,1000,180000,1,-26.664501,-167.482069
+"Death Star","Imperial Department of Military Research, Sienar Fleet Systems",1000000000000,120000,0,1000000000000,4,-79.719385,-171.19268
+"Millennium Falcon","Corellian Engineering Corporation",100000,34,1050,100000,0.5,75.633866,-80.249396
+Y-wing,"Koensayr Manufacturing",134999,14,1000,110,1,-7.545105,-128.69839
+X-wing,"Incom Corporation",149999,12,1050,110,1,65.662988,-128.671046
+"TIE Advanced x1","Sienar Fleet Systems",0,9,1200,150,1,-18.044728,159.759264
+Executor,"Kuat Drive Yards, Fondor Shipyards",1143350000,19,0,250000000,2,-59.269858,45.203756
+"Slave 1","Kuat Systems Engineering",0,21,1000,70000,3,31.663219,46.372544
+"Imperial shuttle","Sienar Fleet Systems",240000,20,850,80000,1,81.861626,76.304634
+"EF76 Nebulon-B escort frigate","Kuat Drive Yards",8500000,300,800,6000000,2,60.187005,-129.20816
+"Calamari Cruiser","Mon Calamari shipyards",104000000,1200,0,0,1,-78.155725,-55.259287
+A-wing,"Alliance Underground Engineering, Incom Corporation",175000,9,1300,40,1,22.136151,-73.281825
+B-wing,"Slayn & Korpil",220000,16,950,45,2,15.320955,-124.96643
+"Republic Cruiser","Corellian Engineering Corporation",0,115,900,0,2,-84.141049,46.019668
+"Naboo fighter","Theed Palace Space Vessel Engineering Corps",200000,11,1100,65,1,-80.728819,-105.476934
+"Naboo Royal Starship","Theed Palace Space Vessel Engineering Corps, Nubia Star Drives",0,76,920,0,1.8,22.490787,-145.900857
+Scimitar,"Republic Sienar Systems",55000000,26,1180,2500000,1.5,74.730362,-26.181936
+"J-type diplomatic barge","Theed Palace Space Vessel Engineering Corps, Nubia Star Drives",2000000,39,2000,0,0.7,-20.614217,22.284416
+"AA-9 Coruscant freighter","Botajef Shipyards",0,390,0,0,0,74.681669,173.944725
+"Jedi starfighter","Kuat Systems Engineering",180000,8,1150,60,1,-79.328391,59.18144
+"H-type Nubian yacht","Theed Palace Space Vessel Engineering Corps",0,47,8000,0,0.9,-49.559276,-124.702364
+"Star Destroyer","Kuat Drive Yards",150000000,1,975,36000000,2,-39.584123,56.947212
+"Trade Federation cruiser","Rendili StarDrive, Free Dac Volunteers Engineering corps.",125000000,1088,1050,50000000,1.5,64.959547,154.178334
+"Theta-class T-2c shuttle","Cygnus Spaceworks",1000000,18,2000,50000,1,13.772465,-39.144041
+"T-70 X-wing fighter",Incom,0,0,0,0,0,-36.324805,-98.493694
+"Rebel transport","Gallofree Yards, Inc.",0,90,650,19000000,4,-60.458968,-143.121381
+"Droid control ship","Hoersch-Kessel Drive, Inc.",0,3170,0,4000000000,2,8.347949,-49.832729
+"Republic Assault ship","Rothana Heavy Engineering",0,752,0,11250000,0.6,-7.396807,40.146503
+"Solar Sailer","Huppla Pasa Tisc Shipwrights Collective",35700,15,1600,240,1.5,-28.285366,-95.806388
+"Republic attack cruiser","Kuat Drive Yards, Allanteen Six shipyards",59000000,1137,975,20000000,1,65.787332,-174.930195
+"Naboo star skiff","Theed Palace Space Vessel Engineering Corps/Nubia Star Drives, Incorporated",0,29,1050,0,0.5,-71.026254,137.216331
+"Jedi Interceptor","Kuat Systems Engineering",320000,5,1500,60,1,20.697554,132.386828
+arc-170,"Incom Corporation, Subpro Corporation",155000,14,1000,110,1,8.084993,-69.185089
+"Banking clan frigte","Hoersch-Kessel Drive, Inc, Gwori Revolutionary Industries",57000000,825,0,40000000,1,25.304697,47.591072
+"Belbullab-22 starfighter","Feethan Ottraw Scalable Assemblies",168000,6,1100,140,6,-50.736375,100.01011
+V-wing,"Kuat Systems Engineering",102500,7,1050,60,1,-79.482886,-11.958435
+"CR90 corvette","Corellian Engineering Corporation",3500000,150,950,3000000,2,-21.026979,23.051885
