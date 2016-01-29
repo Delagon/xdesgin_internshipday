@@ -17,3 +17,8 @@ Using the API:
       -Returns the closest 25 ships to the point with a lattitiude of x and longatuide of y
     ships/api/page=n/search{coords=lat:x,long:y}
       -Returns the ships from 20*(n - 1) to 25n closest to the point descrubed by x and y
+
+Note on the index
+  by using the url
+    ships/index/long:x,lat:y
+  the table on the main page will be sorted by proximity to the location
